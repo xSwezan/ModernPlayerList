@@ -1,6 +1,6 @@
 {
-	"name": "ModuleName",
-	"servePlaceIds": [],
+	"name": "Modern Player List",
+	"servePlaceIds": [16754348642],
 	"tree": {
 		"$className": "DataModel",
 		"ReplicatedStorage": {

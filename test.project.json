@@ -1,0 +1,36 @@
+{
+	"name": "Modern Player List Test",
+	"servePlaceIds": [16754348642],
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"DevPackages": {
+				"$path": "DevPackages"
+			},
+			"lib": {
+				"$path": "Packages",
+				"$className": "ModuleScript",
+				"$properties": {
+					"Source": "return require(script.lib)"
+				},
+				"lib": {
+					"$path": "lib"
+				}
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "src/Server"
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "src/Client"
+			}
+		}
+	}
+}
